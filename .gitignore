@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Deprecated code
+_deprecated*/
+src/_deprecated*/
+
+# Environment variables - CRITICAL: NEVER COMMIT CREDENTIALS!
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+*.env
+
+# BrightData credentials - NEVER COMMIT!
+*brightdata*credentials*
+*api*key*
+*api*token*
+proxy_manager_config.json
+
+# Database files - CLIENT REQUIRES DATABASE
+# *.db
+# *.sqlite
+# *.sqlite3
+# jobs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Playwright browsers (stored in project to prevent cache cleanup)
+.playwright-browsers/
+
+# LinkedIn authentication
+.linkedin_cookies.json
+*_cookies.json
+
+# node Modules
+node_modules/
+
+# dot folders
+.*.swp
+.*.swo
+.*~
+
+# Claude and AI assistant files - NEVER COMMIT!
+.claude/
+.claude*
+CLAUDE.md
+.cursorrules
+.cursor/
+.aider*
+.github/copilot/
