@@ -416,6 +416,4 @@ python -m basedpyright src/
 
 ---
 
-## License
 
-MIT License - See [LICENSE](LICENSE) file for details.
